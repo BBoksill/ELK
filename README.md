@@ -12,6 +12,19 @@
 | kibana | 7.11.2 | - |
 | Slack | - | - |
 
+| Name | Version | Remark |
+|:-------:|:-------:|:-------:|
+| Python | 2.7 | 32bit |
+| Winlogbeat | 7.11.2 | - |
+| Sysmon | 13.10 | - |
+| RTA | - | - |
+
+| Name | Version | Remark |
+|:-------:|:-------:|:-------:|
+| Python | 3.6.9 | 64bit |
+| Elastalert | 0.2.4 | - |
+
+
 ##  환경 구성 
 * Windows 7 32bit (Endpoint 환경) - VM 구성
   - Python 2.7 32bit
