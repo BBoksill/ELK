@@ -2,6 +2,7 @@
 ## Index
 - [Diagram](#Diagram)
 - [환경구성](#환경구성)
+- [How to install](#How to install)
 
 
 ##  Diagram
