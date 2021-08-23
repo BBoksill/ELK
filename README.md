@@ -6,7 +6,7 @@
   
 ##  시스템 구성도 
 
-   ![diagram](https://user-images.githubusercontent.com/63506170/130433530-cf6f7a8f-57cb-4947-b463-c6601de6a7c4.jpg)
+   ![diagram](https://user-images.githubusercontent.com/63506170/130434242-fe60e942-c347-4ba2-afe9-c08100ff480b.jpg)
 
 ##  환경 구성 
 * Windows 7 32bit (Endpoint 환경) - VM 구성
