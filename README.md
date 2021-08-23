@@ -6,19 +6,21 @@
    ![diagram](https://user-images.githubusercontent.com/63506170/130434242-fe60e942-c347-4ba2-afe9-c08100ff480b.jpg)
 
 ##  버전
+ * HOST
 | Name | Version | Remark |
 |:-------:|:-------:|:-------:|
 | Elasticsearch | 7.11.2 | - |
 | kibana | 7.11.2 | - |
 | Slack | - | - |
 
+ * Guest 1 (Windows 7 Ult) - 32bit
 | Name | Version | Remark |
 |:-------:|:-------:|:-------:|
 | Python | 2.7 | 32bit |
 | Winlogbeat | 7.11.2 | - |
 | Sysmon | 13.10 | - |
 | RTA | - | - |
-
+ * Guest 2 (Ubuntu 18.04) - 64bit
 | Name | Version | Remark |
 |:-------:|:-------:|:-------:|
 | Python | 3.6.9 | 64bit |
