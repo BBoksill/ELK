@@ -3,6 +3,9 @@
 - [Diagram](#Diagram)
 - [환경구성](#환경구성)
 - [How to install](#How-to-install)
+- [실행방법](#실행방법)
+- [Manual](#Manual)
+- [오류수정](#오류수정) 
 
 
 ##  [Diagram](#index)
@@ -63,7 +66,7 @@
   - elastalert 설치
     > https://elastalert.readthedocs.io/en/latest/running_elastalert.html
 
-##  실행 방법 
+##  [실행방법](#index) 
 
 * Win7sp1 sysmon vm 환경 실행
 
@@ -84,7 +87,7 @@
   >/elastalert  
   >elastalert --verbose --start  --config <config.yaml> --rule <error.yaml>
  
-## 메뉴얼 
+## [Manual](#index)
 
 * sysmon
   > https://github.com/trustedsec/SysmonCommunityGuide/blob/master/Sysmon.md
@@ -95,7 +98,7 @@
 * elastalert
   > https://elastalert.readthedocs.io/en/latest/running_elastalert.html
   
- ## 오류 수정 
+ ## [오류수정](#index) 
  [[ windows 7 ]]
  * sysmon 10.x 실행 오류
    > kb2533623 설치 (wevtapi.dll 문제)
