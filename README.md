@@ -39,6 +39,16 @@
 
 
 ##  [How to install](#index)
+* Elastic Stack 64bit (Server 환경) - Host
+  - Elastic Elasticsearch 설치
+    > https://www.elastic.co/kr/downloads/elasticsearch
+
+  - Elastic Kibana 설치
+    > https://www.elastic.co/kr/downloads/kibana
+ 
+  - Elastic Logstach (Optional) 설치
+    > https://www.elastic.co/kr/downloads/logstash
+ 
 * Windows 7 32bit (Endpoint 환경) - VM 구성
   - Python 2.7 32bit
   - Elastic Winlogbeat 7.11.2
@@ -49,15 +59,7 @@
   - SwiftOnSecurity의 sysmon-config (보안로그 발생을 위한 sysmon 환경 파일)
     > https://github.com/SwiftOnSecurity/sysmon-config
     
-* Elastic Stack 64bit (Server 환경) - Host
-  - Elastic Logstach (Optional) 설치
-    > https://www.elastic.co/kr/downloads/logstash
 
-  - Elastic Elasticsearch 설치
-    > https://www.elastic.co/kr/downloads/elasticsearch
-
-  - Elastic Kibana 설치
-    > https://www.elastic.co/kr/downloads/kibana
 
 * Ubuntu 18.04 64bit 환경
   - Yelp의 elastalert
