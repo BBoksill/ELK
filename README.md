@@ -6,8 +6,8 @@
    ![diagram](https://user-images.githubusercontent.com/63506170/130434242-fe60e942-c347-4ba2-afe9-c08100ff480b.jpg)
 
 ##  버전
-|:-------:|:-------:|:-------:|
 | Name | Version | Remark |
+|:-------:|:-------:|:-------:|
 | Elasticsearch | 7.11.2 | - |
 | kibana | 7.11.2 | - |
 | Slack | - | - |
