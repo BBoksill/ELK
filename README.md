@@ -1,7 +1,7 @@
 # Intelligent Incident Response Platform
 ## Index
 - [Diagram](#Diagram)
-- [환경구성](#환경구성)
+- [Preference](#Preference)
 - [How to install](#How-to-install)
 - [실행방법](#실행방법)
 - [Manual](#Manual)
@@ -12,7 +12,7 @@
 
    ![diagram](https://user-images.githubusercontent.com/63506170/130434242-fe60e942-c347-4ba2-afe9-c08100ff480b.jpg)
 
-##  [환경구성](#index)
+##  [Preference](#index)
  * HOST
 
 | Name | Version | Remark |
