@@ -5,7 +5,7 @@
 
    ![diagram](https://user-images.githubusercontent.com/63506170/130434242-fe60e942-c347-4ba2-afe9-c08100ff480b.jpg)
 
-##  버전
+##  환경구성
  * HOST
 
 | Name | Version | Remark |
@@ -31,11 +31,11 @@
 | Elastalert | 0.2.4 | - |
 
 
-##  환경 구성 
+##  How to install
 * Windows 7 32bit (Endpoint 환경) - VM 구성
   - Python 2.7 32bit
-  - Elastic Winlogbeat 7.6.2
-  - sysmon
+  - Elastic Winlogbeat 7.11.2
+  - sysmon 13.10
     > microsoft의 sysinternals.com
   - Red Team Automation (Red Team용 MITRE ATT@CK 기반 malicious attack 발생)
     > https://github.com/endgameinc/RTA
