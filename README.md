@@ -1,9 +1,6 @@
 # Intelligent Incident Response Platform
 
-##  목표 구성도 참고 
-* Open Source Endpoint monitoring 
-  - https://github.com/DearBytes/Opensource-Endpoint-Monitoring
-  
+
 ##  시스템 구성도 
 
    ![diagram](https://user-images.githubusercontent.com/63506170/130434242-fe60e942-c347-4ba2-afe9-c08100ff480b.jpg)
@@ -117,6 +114,11 @@
 [[ Elastalert ]]
 * pip install 오류
   > python version 3.6 다운
+
+##  목표 구성도 참고 
+* Open Source Endpoint monitoring 
+  - https://github.com/DearBytes/Opensource-Endpoint-Monitoring
+  
 ## Contributors
 * maxup37
 * idk3669
