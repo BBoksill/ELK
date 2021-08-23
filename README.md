@@ -15,13 +15,16 @@
 | Slack | - | - |
 
  * Guest 1 (Windows 7 Ult) - 32bit
+ 
 | Name | Version | Remark |
 |:-------:|:-------:|:-------:|
 | Python | 2.7 | 32bit |
 | Winlogbeat | 7.11.2 | - |
 | Sysmon | 13.10 | - |
 | RTA | - | - |
+
  * Guest 2 (Ubuntu 18.04) - 64bit
+ 
 | Name | Version | Remark |
 |:-------:|:-------:|:-------:|
 | Python | 3.6.9 | 64bit |
