@@ -4,7 +4,7 @@
 - [환경구성](#환경구성)
 
 
-##  시스템 구성도 (#index
+##  시스템 구성도 (#index)
 
    ![diagram](https://user-images.githubusercontent.com/63506170/130434242-fe60e942-c347-4ba2-afe9-c08100ff480b.jpg)
 
