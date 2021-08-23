@@ -7,8 +7,9 @@
 
 ##  버전
  * HOST
-| Name | Version | Remark |
+
 |:-------:|:-------:|:-------:|
+| Name | Version | Remark |
 | Elasticsearch | 7.11.2 | - |
 | kibana | 7.11.2 | - |
 | Slack | - | - |
