@@ -176,8 +176,12 @@
 
 [[ Elastalert ]]
 * pip install 오류
-  > python version 3.6 다운
-
+  > python version 3.6 설치
+* git 오류
+  > $sudo apt install git
+* "python setup.py egg_info" failed with error code 1
+  > $sudo pip3 install --upgrade pip
+ 
 ##  목표 구성도 참고 
 * Open Source Endpoint monitoring 
   - https://github.com/DearBytes/Opensource-Endpoint-Monitoring
