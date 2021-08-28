@@ -5,7 +5,7 @@
 - [How to install](#How-to-install)
 - [How to run](#How-to-run)
 - [Manual](#Manual)
-- [오류수정](#오류수정) 
+- [Trouble shooting](#Trouble-shooting) 
 
 
 ##  [Diagram](#index)
@@ -111,7 +111,7 @@
 * elastalert
   > https://elastalert.readthedocs.io/en/latest/running_elastalert.html
   
- ## [오류수정](#index) 
+ ## [Trouble shooting](#index) 
  [[ windows 7 ]]
  * sysmon 10.x 실행 오류
    > kb2533623 설치 (wevtapi.dll 문제)
