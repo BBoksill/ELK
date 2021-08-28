@@ -119,6 +119,22 @@
   >/elastalert  
   >$python3 -m elastalert.elastalert --config config.yaml --verbose --rule example_rules\example_frequency.yaml <br>
   > ※ 본 github 내에 있는 example_frequency.yaml 사용가능
+
+### sigma_rule (ubuntu_18.04 vm환경)
+* sigmatools 설치
+  > sudo pip3 install sigmatools <br>
+* sigma git 불러오기
+  > git clone http://github.com/Neo23x0/sigma.git <br>
+  > cd sigma <br>
+* home 디렉터리 복사
+  > cp -r rules/windows [원하는 경로] 
+* 실행
+  > $sudo sigmac -t elastalert -r -c winlogbeat ~/windows -o ~/test  
+  > $cd ~  
+* 실행 후 생성된 파일 원하는 폴더로 옮기기
+  > $csplit --prefix sigma_ --suffix-format "%04d.yml" test "/^alert:/" "{\*}"  
+  > $mv ./sigma_\*.yml elastalert/example_rules  
+
 ## [Manual](#index)
 
 * sysmon
