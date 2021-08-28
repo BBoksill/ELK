@@ -82,6 +82,8 @@
     > https://elastalert.readthedocs.io/en/latest/running_elastalert.html <br>
     > 본 과정은 pip3 install이 아닌 git clone 으로 설치 <br>
     > 참조 https://sg-choi.tistory.com/309 
+  
+  - siga 설치 (아래 참조)
 
 ##  [How to run](#index) 
 
