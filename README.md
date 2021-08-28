@@ -72,7 +72,7 @@
     > 4. Start-Service winlogbeat  
     > 5. .\winlogbeat.exe setup -dashboards
     > > 설치폴더\winlogbeat.yml
-    > > kibana - host: "호스트IP:5601"
+    > > kibana - host: "호스트IP:5601" <br>
     > > elasticsearch - hosts: ["호스트IP:9200"]
   - SwiftOnSecurity의 sysmon 13.10 (보안로그 발생을 위한 sysmon 환경 파일)
     > https://docs.microsoft.com/ko-kr/sysinternals/  
