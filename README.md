@@ -52,15 +52,20 @@
 * Windows 7 32bit (Endpoint 환경) - VM 구성
   - Python 2.7 32bit
   - Elastic Winlogbeat 7.11.2
-    > 1. C:program files에 Winlogbeat 파일이름 설정후 저장  
-    > 2. powershell(관리자) 실행 후 .\install-service-winlogbeat.ps1 명령 실행  
+    > 1. C:program files에 Winlogbeat 파일이름 설정후 저장후  
+    > 2. powershell(관리자) 실행 후 폴더경로 들어가서
+    >    .\install-service-winlogbeat.ps1 명령 실행  
     > 3. .\winlogbeat.exe setup -e'  
-    >   -E output.elasticsearch.hosts=['192.168.0.12:9200']'  
-    >   -E output.kibana.host=192.168.0.12:5601  
+    >   -E output.elasticsearch.hosts=['현재 호스트IP:9200']'  
+    >   -E output.kibana.host=현재 호스트 IP:5601  
     > 4. Start-Service winlogbeat  
     > 5. .\winlogbeat.exe setup -dashboards
-  - sysmon 13.10
-    > microsoft의 sysinternals.com
+  - sysmon 13.10 microsoft의 sysinternals.com
+    > https://docs.microsoft.com/ko-kr/sysinternals/  
+    > 1. sysmonconfig-export.xml파일을 sysmon파일 안에 넣어줌
+    >    없을경우 따  
+    > 2. cmd(관리자)실행 후 sysmon파일로 경로 이동해주고 명령문 입력  
+    > Sysmon.exe -accepteula -i C:\Sysmon\sysmonconfig-export.xml -l -n 
   - Red Team Automation (Red Team용 MITRE ATT@CK 기반 malicious attack 발생)
     > https://github.com/endgameinc/RTA
   - SwiftOnSecurity의 sysmon-config (보안로그 발생을 위한 sysmon 환경 파일)
