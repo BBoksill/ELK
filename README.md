@@ -63,10 +63,10 @@
   - sysmon 13.10 microsoft의 sysinternals.com
     > https://docs.microsoft.com/ko-kr/sysinternals/  
     > 1. sysmonconfig-export.xml파일을 sysmon파일 안에 넣어줌
-    >    ※없을경우 현 github 내 파일 다운로드후 진행
+    > >  ※없을경우 현 github 내 파일 다운로드후 진행
     > 2. cmd(관리자)실행 후 sysmon파일로 경로 이동해주고 명령문 입력  
-    >    Sysmon.exe -accepteula -i 
-    >    C:\Sysmon\sysmonconfig-export.xml -l -n 
+    > >  Sysmon.exe -accepteula -i 
+    > >  C:\Sysmon\sysmonconfig-export.xml -l -n 
   - Red Team Automation (Red Team용 MITRE ATT@CK 기반 malicious attack 발생)
     > https://github.com/endgameinc/RTA
   - SwiftOnSecurity의 sysmon-config (보안로그 발생을 위한 sysmon 환경 파일)
