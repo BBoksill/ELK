@@ -181,7 +181,9 @@
   > $sudo apt install git
 * "python setup.py egg_info" failed with error code 1
   > $sudo pip3 install --upgrade pip
- 
+* AttributeError: module 'yaml' has no attribute 'FullLoader'  
+  > $pip3 install -U PyYAML  
+  
 ##  목표 구성도 참고 
 * Open Source Endpoint monitoring 
   - https://github.com/DearBytes/Opensource-Endpoint-Monitoring
