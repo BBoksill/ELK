@@ -56,8 +56,8 @@
     > 2. powershell(관리자) 실행 후 폴더경로 들어가서
     >    .\install-service-winlogbeat.ps1 명령 실행  
     > 3. .\winlogbeat.exe setup -e'  
-    >   -E output.elasticsearch.hosts=['현재 호스트IP:9200']'  
-    >   -E output.kibana.host=현재 호스트 IP:5601  
+    >    -E output.elasticsearch.hosts=['현재 호스트IP:9200']'  
+    >    -E output.kibana.host=현재 호스트 IP:5601  
     > 4. Start-Service winlogbeat  
     > 5. .\winlogbeat.exe setup -dashboards
   - sysmon 13.10 microsoft의 sysinternals.com
