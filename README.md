@@ -41,7 +41,10 @@
 ##  [How to install](#index)
 * Elastic Stack 64bit (Server 환경) - Host
   - Elastic Elasticsearch 설치 (version : 7.11.2)
-    > https://www.elastic.co/kr/downloads/elasticsearch
+    > https://www.elastic.co/kr/downloads/elasticsearch <br>
+    > 설치폴더\config\elasticsearch.yml
+    > network.host: 호스트IP
+    > discovery.seed_hosts: ["127.0.0.1","[::1]"](이건 이대로 적어야함)
 
   - Elastic Kibana 설치 (version : 7.11.2)
     > https://www.elastic.co/kr/downloads/kibana
