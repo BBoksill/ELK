@@ -42,12 +42,17 @@
 * Elastic Stack 64bit (Server 환경) - Host
   - Elastic Elasticsearch 설치 (version : 7.11.2)
     > https://www.elastic.co/kr/downloads/elasticsearch <br>
-    > 설치폴더\config\elasticsearch.yml
-    > network.host: 호스트IP
+    > 네트워크 정보(포트 및 IP) 변경 필수 <br>
+    > 설치폴더\config\elasticsearch.yml <br>
+    > network.host: 호스트IP <br>
     > discovery.seed_hosts: ["127.0.0.1","[::1]"](이건 이대로 적어야함)
 
   - Elastic Kibana 설치 (version : 7.11.2)
     > https://www.elastic.co/kr/downloads/kibana
+    > 네트워크 정보(포트 및 IP) 변경 필수 <br>
+    > 설치폴더\config\kibana.yml
+    > server.host: "호스트IP" <br>
+    > elasticsearch.hosts: ["http://호스트IP:9200"]
  
   - Elastic Logstach (Optional) 설치
     > https://www.elastic.co/kr/downloads/logstash
@@ -66,6 +71,9 @@
     >    -E output.kibana.host=현재 호스트 IP:5601  
     > 4. Start-Service winlogbeat  
     > 5. .\winlogbeat.exe setup -dashboards
+    > > 설치폴더\winlogbeat.yml
+    > > kibana - host: "호스트IP:5601"
+    > > elasticsearch - hosts: ["호스트IP:9200"]
   - SwiftOnSecurity의 sysmon 13.10 (보안로그 발생을 위한 sysmon 환경 파일)
     > https://docs.microsoft.com/ko-kr/sysinternals/  
     > 1. sysmonconfig-export.xml파일을 sysmon파일 안에 넣어줌
