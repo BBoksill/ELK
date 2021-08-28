@@ -3,7 +3,7 @@
 - [Diagram](#Diagram)
 - [Preference](#Preference)
 - [How to install](#How-to-install)
-- [실행방법](#실행방법)
+- [How to run](#How-to-run)
 - [Manual](#Manual)
 - [오류수정](#오류수정) 
 
@@ -79,7 +79,7 @@
     > https://elastalert.readthedocs.io/en/latest/running_elastalert.html <br>
     > 본 과정은 pip3 install이 아닌 git clone 으로 설치
 
-##  [실행방법](#index) 
+##  [How to run](#index) 
 
 * Win7sp1 sysmon vm 환경 실행
 
