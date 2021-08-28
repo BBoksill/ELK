@@ -159,7 +159,7 @@
   >      slack_channel_override: "#(webhook에서 설정한 메세지 받을 채널이름(ex.work))"  
   >      slack_emoji_override: ":(메세지를 올릴 유저의 이모지(ex.zap)):"  
   >      slack_msg_color: "(메세지 색깔(ex.danger))"  
-  > ```  <br>
+  > ```  
   > ※ 앞에 공백은 tab키 사용하지 않고 space로 공백을 만듬
 * elastalert 실행  
   > elastalert --verbose --config config.yaml --rule example_rules\example_frequency <br>
