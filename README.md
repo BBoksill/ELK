@@ -60,7 +60,7 @@
     >    -E output.kibana.host=현재 호스트 IP:5601  
     > 4. Start-Service winlogbeat  
     > 5. .\winlogbeat.exe setup -dashboards
-  - sysmon 13.10 microsoft의 sysinternals.com
+  - SwiftOnSecurity의 sysmon 13.10 (보안로그 발생을 위한 sysmon 환경 파일)
     > https://docs.microsoft.com/ko-kr/sysinternals/  
     > 1. sysmonconfig-export.xml파일을 sysmon파일 안에 넣어줌
     > >  ※없을경우 현 github 내 파일 다운로드후 진행
@@ -69,17 +69,15 @@
     > >  C:\Sysmon\sysmonconfig-export.xml -l -n 
   - Red Team Automation (Red Team용 MITRE ATT@CK 기반 malicious attack 발생)
     > https://github.com/endgameinc/RTA
-  - SwiftOnSecurity의 sysmon-config (보안로그 발생을 위한 sysmon 환경 파일)
-    > https://github.com/SwiftOnSecurity/sysmon-config
     
 
-
 * Ubuntu 18.04 64bit 환경
-  - Yelp의 elastalert
-    > https://github.com/Yelp/elastalert
-
+  - python 3.6 version 설치
+    > apt install python3 <br>
+    > sudo apt install python3-pip
   - elastalert 설치
     > https://elastalert.readthedocs.io/en/latest/running_elastalert.html
+    > 본 과정은 pip3 install이 아닌 git clone 으로 설치
 
 ##  [실행방법](#index) 
 
