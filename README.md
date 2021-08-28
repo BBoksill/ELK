@@ -48,6 +48,9 @@
  
   - Elastic Logstach (Optional) 설치
     > https://www.elastic.co/kr/downloads/logstash
+  
+  - Slack 설치 (아래 참조)
+  
  
 * Windows 7 32bit (Endpoint 환경) - VM 구성
   - Python 2.7 32bit
@@ -90,12 +93,12 @@
 
 * Win7sp1 sysmon vm 환경에서 winlogbeat 실행(관리자 계정)
   > winlogbeat.exe -c winlogbeat.yml
+  
+* Elasticsearch 실행(관리자 계정)
+  > bin/elasticsearch.bat
 
 * Elastic Kibana 실행(관리자 계정)
   > bin/kibana.bat
-
-* Elasticsearch 실행(관리자 계정)
-  > bin/elasticsearch.bat
 
 * Ubuntu 18.04 64bit 환경에서 Elasticalert 실행
   >/elastalert  
