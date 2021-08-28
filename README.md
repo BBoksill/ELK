@@ -40,10 +40,10 @@
 
 ##  [How to install](#index)
 * Elastic Stack 64bit (Server 환경) - Host
-  - Elastic Elasticsearch 설치
+  - Elastic Elasticsearch 설치 (version : 7.11.2)
     > https://www.elastic.co/kr/downloads/elasticsearch
 
-  - Elastic Kibana 설치
+  - Elastic Kibana 설치 (version : 7.11.2)
     > https://www.elastic.co/kr/downloads/kibana
  
   - Elastic Logstach (Optional) 설치
@@ -52,6 +52,13 @@
 * Windows 7 32bit (Endpoint 환경) - VM 구성
   - Python 2.7 32bit
   - Elastic Winlogbeat 7.11.2
+    > 1. C:program files에 Winlogbeat 파일이름 설정해서 넣어줌  
+    > 2. powershell(관리자) 실행 후 .\install-service-winlogbeat.ps1 명령 실행  
+    > 3. .\winlogbeat.exe setup -e'  
+    > -E output.elasticsearch.hosts=['192.168.0.12:9200']'  
+    > -E output.kibana.host=192.168.0.12:5601  
+    > 4. Start-Service winlogbeat  
+    > 5. .\winlogbeat.exe setup -dashboards
   - sysmon 13.10
     > microsoft의 sysinternals.com
   - Red Team Automation (Red Team용 MITRE ATT@CK 기반 malicious attack 발생)
