@@ -104,8 +104,8 @@
 
 * Ubuntu 18.04 64bit 환경에서 Elasticalert 실행
   >/elastalert  
-  >$python3 -m elastalert.elastalert --config config.yaml --verbose --rule example_rules\example_frequency.yaml
- 
+  >$python3 -m elastalert.elastalert --config config.yaml --verbose --rule example_rules\example_frequency.yaml <br>
+  > ※ 본 github 내에 있는 example_frequency.yaml 사용가능
 ## [Manual](#index)
 
 * sysmon
