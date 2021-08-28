@@ -129,11 +129,44 @@
 * home 디렉터리 복사
   > cp -r rules/windows [원하는 경로] 
 * 실행
-  > $sudo sigmac -t elastalert -r -c winlogbeat ~/windows -o ~/test  
+  > $sudo sigmac -t elastalert -r -c winlogbeat ~/windows -o [위에서 복사한 경로]/[설정파일이름]  
   > $cd ~  
 * 실행 후 생성된 파일 원하는 폴더로 옮기기
-  > $csplit --prefix sigma_ --suffix-format "%04d.yml" test "/^alert:/" "{\*}"  
+  > $csplit --prefix sigma_ --suffix-format "%04d.yml" [설정파일이름] "/^alert:/" "{\*}"  
   > $mv ./sigma_\*.yml elastalert/example_rules  
+
+### slack (HOST 환경)  
+* slack 다운로드
+  > https://slack.com/intl/ko-kr/downloads/windows  
+  > 로그인 후 워크스페이스 생성 (이하 elk)  
+* Incoming WebHook 설정
+  > 1. slack 프로그램 내 만든 워크스페이스 접속  
+  > 2. slack 찾아보기 -> 앱 -> incoming webhook 검색 후 추가  
+  > 3. 홈페이지 자동 접속 -> slack에 추가 버튼 클릭 -> 메세지를 띄울 채널 선택  
+  > 4. 수신 웹후크 통합 앱 추가 버튼 클릭  
+  > 5. 웹후크 URL 복사해놓기
+  > 6. 창 닫아도 접속 가능 : https://XXXXX(만든 워크스페이스의 이름).slack.com/services/new/incoming-webhook  
+* ubuntu 실행
+  > $cd elastalert/example_rules/  
+  > example_frequency.yaml 파일 수정 (계속 써왔던 rule 파일)  
+* rule 파일 수정
+  > 아래 내용을 rule 파일 마지막에 입력  
+  > ```
+  > alert:  
+  > - slack:  
+  >      slack_webhook_url: "(webhook에서 복사한 url)"  
+  >      slack_username_override: "(메세지를 올릴 유저명(ex.bboksill))"  
+  >      slack_channel_override: "#(webhook에서 설정한 메세지 받을 채널이름(ex.work))"  
+  >      slack_emoji_override: ":(메세지를 올릴 유저의 이모지(ex.zap)):"  
+  >      slack_msg_color: "(메세지 색깔(ex.danger))"  
+  > ```  <br>
+  > ※ 앞에 공백은 tab키 사용하지 않고 space로 공백을 만듬
+* elastalert 실행  
+  > elastalert --verbose --config config.yaml --rule example_rules\example_frequency <br>
+  > window7에서 rta를 실행시키면 slack에 메세지 발생  
+
+* 참고사이트
+  > https://miiingo.tistory.com/223
 
 ## [Manual](#index)
 
