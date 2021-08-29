@@ -57,7 +57,7 @@
   - Elastic Logstach (Optional) 설치
     > https://www.elastic.co/kr/downloads/logstash
   
-  - Slack 설치 (아래 참조)
+  - [slack](#slack) 설치 (아래 참조)
   
  
 * Windows 7 32bit (Endpoint 환경) - VM 구성
@@ -135,7 +135,7 @@
   > $csplit --prefix sigma_ --suffix-format "%04d.yml" [설정파일이름] "/^alert:/" "{\*}"  
   > $mv ./sigma_\*.yml elastalert/example_rules  
 
-### slack (HOST 환경)  
+### [slack](#index) (HOST 환경)  
 * slack 다운로드
   > https://slack.com/intl/ko-kr/downloads/windows  
   > 로그인 후 워크스페이스 생성 (이하 elk)  
