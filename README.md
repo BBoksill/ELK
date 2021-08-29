@@ -96,7 +96,7 @@
     > 본 과정은 pip3 install이 아닌 git clone 으로 설치 <br>
     > 참조 https://sg-choi.tistory.com/309 
   
-  - siga 설치 (아래 참조)
+  - [sigma](###sigma) 설치 (아래 참조)
 
 ##  [How to run](#index) 
 
@@ -120,7 +120,7 @@
   >$python3 -m elastalert.elastalert --config config.yaml --verbose --rule example_rules\example_frequency.yaml <br>
   > ※ 본 github 내에 있는 example_frequency.yaml 사용가능
 
-### sigma_rule (ubuntu_18.04 vm환경)
+### [sigma](#How-to-install) (ubuntu_18.04 vm환경)
 * sigmatools 설치
   > sudo pip3 install sigmatools <br>
 * sigma git 불러오기
