@@ -181,6 +181,9 @@
   
  ## [Trouble shooting](#index) 
  [[ windows 7 ]]
+ * winlogbeat 실행정책 오류
+   > Set-ExecutionPolicy bypass <br>
+   
  * sysmon 10.x 실행 오류
    > kb2533623 설치 (wevtapi.dll 문제)
    
