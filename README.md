@@ -135,7 +135,7 @@
   > $csplit --prefix sigma_ --suffix-format "%04d.yml" [설정파일이름] "/^alert:/" "{\*}"  
   > $mv ./sigma_\*.yml elastalert/example_rules  
 
-### [slack](#index) (HOST 환경)  
+### [slack](#How-to-install) (HOST 환경)  
 * slack 다운로드
   > https://slack.com/intl/ko-kr/downloads/windows  
   > 로그인 후 워크스페이스 생성 (이하 elk)  
